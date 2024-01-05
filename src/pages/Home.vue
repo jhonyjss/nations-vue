@@ -6,7 +6,7 @@
   import { useFlags } from "@composables/flags";
 
   const { countries } = useFlags();
-  const searchTerm = reactive(countries);
+  let searchTerm = reactive(countries);
 </script>
 
 <template>
@@ -25,7 +25,7 @@
   >
     <!-- Country flags and Cards -->
     <div v-for="(flag, i) in searchTerm">
-      <AppCard :flag="flag" :key="i" />
+      <AppCard v-if="flag" :flag="flag" :key="i" />
     </div>
   </section>
 </template>
