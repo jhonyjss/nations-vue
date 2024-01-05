@@ -1,0 +1,8 @@
+body {
+    @apply dark:bg-very-dark-blue-bg bg-very-light-gray font-nunito-sans;
+}
+
+input,
+select {
+    @apply bg-very-light-gray dark:bg-dark-blue;
+}
