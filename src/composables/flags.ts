@@ -1,4 +1,4 @@
-import { ref, onMounted, watch } from 'vue';
+import { ref, onMounted } from 'vue';
 import { getAllFlags } from '../services/flag.service';
 import { useFlags as useStoreFlags } from '@stores/flags';
 import IFlag from '@interfaces/flags.interface';
