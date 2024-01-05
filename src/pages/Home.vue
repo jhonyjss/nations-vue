@@ -24,8 +24,8 @@
     class="grid grid-cols-1 md:grid-cols-4 gap-14 px-[2.5rem] md:px-0"
   >
     <!-- Country flags and Cards -->
-    <div v-for="flag in searchTerm">
-      <AppCard :flag="flag" :key="flag.name.common" />
+    <div v-for="(flag, i) in searchTerm">
+      <AppCard :flag="flag" :key="i" />
     </div>
   </section>
 </template>
