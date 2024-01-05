@@ -1,18 +1,77 @@
-# Vue 3 + TypeScript + Vite
+# Nations Vue Project
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Welcome to the Nations Vue project! This project is built using Vue 3, Vite, and TypeScript to provide a responsive web application that lists countries from all nations. The application includes features such as search, filtering, and detailed pages for each country.
 
-## Recommended IDE Setup
+## Demo
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Check out the live demo of the project: [Nations Vue Demo](https://nations-vue.netlify.app/)
 
-## Type Support For `.vue` Imports in TS
+## Getting Started
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+To run the project locally in development mode, follow these steps:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+1. Clone the repository:
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd nations-vue
+   ```
+
+3. Install dependencies using npm or yarn:
+
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   This will start the development server, and you can view the application at `http://localhost:3000`.
+
+## Build
+
+To build the project for production, use the following command:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+This will generate a `dist` folder containing the optimized and minified files ready for deployment.
+
+## Features
+
+- Responsive design
+- List of countries from all nations
+- Search functionality
+- Filtering options
+- Detailed pages for each country
+
+## Technologies Used
+
+- Vue 3
+- Vite
+- TypeScript
+
+## Contributing
+
+Feel free to contribute to this project. Fork the repository, make your changes, and submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Enjoy exploring countries and nations with Nations Vue!
